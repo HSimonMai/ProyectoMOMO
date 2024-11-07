@@ -1,0 +1,189 @@
+body{
+    background: linear-gradient(80deg,rgb(226, 77, 201) 0%,rgb(232, 140, 232) 50%,rgb(236, 40, 236) 90%)
+}
+.contenedor{
+    text-align: center;
+    margin: auto;
+}
+.ingredientesf{
+   height: 500px;
+   width: 900px;
+}
+.imagenn{
+    height: 500px;
+    width: 700px;
+    position: relative;
+}
+.titulo{
+    color: rgb(226, 244, 244);
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.parr{
+    color: rgb(226, 176, 176);
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.momoladinastia{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+.logo{
+    position: static;
+    display: block;
+    margin: auto;
+    height: 150px;
+}
+.barra-navegacion {
+    background-color: #f2eaea;
+    padding: 15px 0;
+    display: flex; 
+    justify-content: center; /* Centra los elementos */
+}
+.contacto {
+    height: 50px;                 
+    width: 70px;                 
+}
+
+.contenedorcontacto {
+    display: flex;              
+    flex-direction: column;       
+}
+
+.contatoedit {
+    display: flex;               /* Alinea la imagen y el texto en línea */
+    align-items: center;         /* Asegura que el texto y la imagen se alineen verticalmente */
+    gap: 10px;                   /* Espacio entre la imagen y el texto */
+}
+
+.contactotext {
+    font-size: 25px;             
+    color: #e9e3e3;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;            
+    padding: 0px;
+}
+.h1elab{
+    color: rgb(65, 65, 185);
+}
+.elabedit{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(211, 207, 238);
+    font-family:sans-serif;
+    text-align: center;
+}
+.ingre{
+    color: rgb(59, 59, 204);
+    text-align: center;
+    font-size: 50px;
+}
+.galeria {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gal{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+
+.flecha {
+    cursor: pointer;
+    font-size: 2em; /* Tamaño de la flecha */
+    color: #333;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    user-select: none; /* Evita seleccionar las flechas */
+}
+
+.izquierda {
+    left: 10px;
+}
+
+.derecha {
+    right: 10px;
+}
+
+.flecha:hover {
+    color: #efeaea; /* Cambia de color al pasar el ratón */
+}
+.fodatitle{
+    color: rgb(148, 81, 231);
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fodaparr{
+    color: #f5e3f3;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grupotitle{
+    color: rgb(38, 33, 166);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gruparr{
+    color: rgb(241, 235, 235);
+    text-align: center;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cursoaño{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none; 
+    justify-content: center;
+    background-color: rgb(210, 54, 153);
+    padding: 5px;
+    margin: 25px;
+    border-radius: 20px; /* Bordes redondeados */
+
+}
+
+li {
+    margin: 0 15px; /* Espaciado entre los elementos de la lista */
+}
+
+a {
+    color: white; /* Color de las letras */
+    text-decoration: none;
+    padding: 15px 20px; /* Espacio alrededor del texto */
+    font-size: 20px; 
+    transition: background-color 0.3s; /* Transición  para el hover */
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+a:hover {
+    background-color: #e40dc7; /* Color de fondo al pasar el mouse */
+    border-radius: 5px;
+}
+#galeria{
+    width: 30%; /* Ajusta el ancho según lo necesites */
+    max-width: 600px; /* Ancho máximo */
+    overflow: hidden; /* Ocultar desbordamiento */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center;
+    margin: auto;
+}
+.gal{
+    width: 50%; /* Ajusta el ancho según lo necesites */
+    max-width: 600px; /* Ancho máximo */
+    overflow: hidden; /* Ocultar desbordamiento */
+    border-radius: 30px; /* Bordes redondeados */
+    transition: opacity 0.5s ease; /* Transición suave */
+
+}
